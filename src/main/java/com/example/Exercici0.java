@@ -10,9 +10,6 @@ import java.util.concurrent.Future;
 public class Exercici0 {
     // Crea una classe Java amb un mètode main.
     public static void main(String[] args) {
-
-
-        
         // Defineix una estructura de dades concurrent
         // (com ConcurrentHashMap) per compartir informació entre les tasques.
         ConcurrentHashMap<String, Double> dades = new ConcurrentHashMap<>();
